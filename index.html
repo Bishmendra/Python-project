@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Calculator</title>
+</head>
+<body>
+    <h1>Enter Student Details</h1>
+    <p>Full Mark: 100 </p>
+    <p>Pass Mark: 40 </p>
+
+    <form action="/calculate" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Roll No:</label><br>
+        <input type="text" name="roll" required><br><br>
+
+        <label>Subject 1 Marks:</label><br>
+        <input type="number" name="subject1" required><br><br>
+
+        <label>Subject 2 Marks:</label><br>
+        <input type="number" name="subject2" required><br><br>
+
+        <label>Subject 3 Marks:</label><br>
+        <input type="number" name="subject3" required><br><br>
+        
+        <label>Subject 4 Marks:</label><br>
+        <input type="number" name="subject4" required><br><br>
+        
+        <label>Subject 5 Marks:</label><br>
+        <input type="number" name="subject5" required><br><br>
+
+        <button type="submit">Calculate Result</button>
+    </form>
+    <h1>Recently calculated results: Click below</h1>
+    <h2><a href="results">Show History</a></h2>
+
+
+</body>
+</html>
